@@ -249,7 +249,6 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
