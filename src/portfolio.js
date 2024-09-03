@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ingeniero Eleazar",
+  title: "Hola, Soy el Ingeniero Eleazar",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Soy un desarrollador de software 🚀 con experiencia en la construcción de aplicaciones web y de Escritorio con Asp .net core, C#, Windows Forms, MySQL, Javascript, React, Python."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,12 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
+  github: "https://github.com/IngenieroEleazar",
+  linkedin: "www.linkedin.com/in/ingenieroeleazar",
+  gmail: "l.azar.hp@gmail.com",
+  facebook: "https://www.facebook.com/leviengineerhp/",
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -48,15 +46,18 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "En que me especializo",
+  subTitle: "Programador de aplicaciones Web y de Escritorio utilizando tecnologias en función al proyecto a desarrollar.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Desarrollo de interfaces FrontEnd mediante HTML, CSS y JavaScript."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Creacion de BD con el lenguaje SQL en MySQL Worckbench."
+    ),
+    emoji("⚡ Aplicaciones Web y de Escritorio"),
+    emoji(
+      "⚡ Orientación en todas las tecnologias mencionadas"
     )
   ],
 
@@ -89,20 +90,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
@@ -126,23 +119,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Universidad Tecnológica del Perú",
+      logo: require("./assets/images/utpLogo.png"),
+      subHeader: "Bachiller en Ingenieria de Software",
+      duration: "Diciembre 2024 - Concluso",
     }
   ]
 };
@@ -154,15 +134,27 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "50%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Microsoft Office",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "JavaScript",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "C#",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Python",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +166,59 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Jefe de Área de TI",
+      company: "B&V MOLDEA TU FUTURO",
+      companylogo: require("./assets/images/moldeaTuFuturoLogo.jpg"),
+      date: "Dic 2023 – Presente",
+      desc: "Aptitudes: C#, MVC, GitHub, SQL, Dart, Firebase",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Mantenimiento de aplicaciones-sistemas de la institución B&V MOLDEA TU FUTURO",
+        "Elaborar la documentación del software",
+        "Codificación del aplicativo móvil: b&vmoldeatufuturo",
+        "Codificación del sitio web: b&vmoldeatufuturo",
+        "Manejo base de datos relacional en MySQL y no relacional en Firebase",
+        "Documentar pruebas unitarias, POSTMAN"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Docente de Matemática",
+      company: "CORPORACION CRUZ SACO",
+      companylogo: require("./assets/images/cruzSacoLogo.png"),
+      date: "Mar 2022 – Dic 2023",
+      desc: "Aptitudes: Habilidades Blandas, Comunicación Asertiva",
+      descBullets: [
+        "Planificar sesiones de aprendizaje continuo",
+        "Apoyar como tutor de grado",
+        "Elaborar materiales de apoyo",
+        "Revisar y corregir materiales o exámenes proporcionaods por la I.E.P."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Tutor de Algoritmos – Asistente Estudiantil",
+      company: "Universidad Tecnológica del Perú",
+      companylogo: require("./assets/images/utpLogo.png"),
+      date: "Ago 2021 – Ago 2022",
+      descBullets: [
+        "Aportación de conocimientos teóricos y prácticos sobre la especialidad.",
+        "Planificación de las clases para fortalecer los procesos de aprendizaje.",
+        "Registro y control de las actividades realizadas.",
+        "Fomento de valores que contribuyen a un buen ambiente de trabajo entre los alumnos",
+        "Solución de conflictos surgidos en el aula.",
+        "Elaboración de materiales de apoyo para las clases."
+      ]
+    },
+    {
+      role: "Técnico en el Área",
+      company: "Soporte tecnico de Rockolas",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Ene 2015 – Ago 2021",
+      descBullets: [
+        "Lectura de Planos para fabricar una Rockola.",
+        "Capacidad de utilizar herramientas eléctricas como taladro, caladora, cortadora, entre otros.",
+        "Conocimiento de electrónica para la conexión de las diferentes áreas de una rockola como amplificador, ficheros, parlantes, entre otros.",
+        "Dominio de instalación de SO, software para bar, modificaciones al SO XP, W7, uso de MiniWindows, modificar la BIOS, entre otros.",
+        "Capacidad para identificar problemas de las piezas del ordenador como, placa madre, tarjeta de video, cables HDMI/VGA, pilas, memoria RAM, disco duro."
+      ]
     }
   ]
 };
@@ -212,8 +234,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Proyectos",
+  subtitle: "ALGUNOS PROYECTOS QUE REALICE DESDE CERO POR MEDIO DE CURSOS Y TAMBIÉN LOS QUE PARTICIPE",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -227,6 +249,7 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+    
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
@@ -369,11 +392,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contactame ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "¿Discutir un proyecto o simplemente saludar? Mi bandeja de entrada está abierta para todos.",
+  number: "+51 953739309",
+  email_address: "l.azar.hp@hotmail.com"
 };
 
 // Twitter Section
